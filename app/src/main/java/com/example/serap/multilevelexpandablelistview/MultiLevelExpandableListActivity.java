@@ -19,7 +19,6 @@ public class MultiLevelExpandableListActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-
     ExpandableListView multiLevelExpandableListView =
         (ExpandableListView) findViewById(R.id.elv_multi_level);
     multiLevelExpandableListView.setAdapter(
